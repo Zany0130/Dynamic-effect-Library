@@ -1,0 +1,73 @@
+ .dx-header {
+    width: 1920px;
+    height: 64px;
+    background: #ffffff;
+    box-shadow: 0px 2px 20px 0px rgba(169,170,184,0.17); 
+    position: fixed;
+
+    .dx-header-logo {
+        width: 121px;
+        height: 34px;
+        background: url("../../common/images/logo.png");
+        background-size: contain;
+        float: left;
+        margin: 15px 30px;
+        cursor: pointer;
+    }
+
+    .dx-header-user {
+        float: right;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-image: url("../../common/images/user.jpg");
+        background-size: contain;
+        margin: 12px 30px 12px 0px;
+        cursor: pointer;
+    }
+
+    .dx-header-upload {
+        float: right;
+        width: 89px;
+        height: 31px;
+        background: #3a5efb;
+        border-radius: 2px;
+        margin: 17px 40px 16px;
+        text-align: center;
+        font-size: 14px;
+        font-family: Alibaba, Alibaba-PuHuiTi;
+        font-weight: PuHuiTi;
+        color: #ffffff;
+        line-height: 31px;
+        cursor: pointer;
+    }
+
+    .dx-header-nav {
+        float: right;
+        margin: 22px 0 21px;
+        ul {
+            li {
+                list-style: none;
+                float: right;
+                a {
+                    display: block;
+                    height: 21px;
+                    padding-left: 40px;
+                    text-align: center;
+                    line-height: 21px;
+                    font-size: 14px;
+                    font-family: Alibaba, Alibaba-PuHuiTi;
+                    font-weight: PuHuiTi;
+                    text-align: center;
+                    color: #222222;
+                    cursor: pointer;
+                    &:hover {
+                        color: #3a5efb;
+                    }
+                    
+                }
+            }
+        }
+    }
+
+  }

@@ -1,0 +1,47 @@
+  .dx-web-sider {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 100vh;
+    overflow: auto;
+    margin-top: 64px;
+    background-color: #ffffff;
+  }
+
+  .dx-web-sider-menu {
+    padding: 30px 0 0 0;
+    li {
+      position: relative;
+      list-style: none;
+      width: 240px;
+      height: 40px;
+      cursor: pointer;
+      &:hover {
+        background-color: #3a5efb;
+        span {
+          color: #ffffff;
+        }
+      }
+
+      span {
+        position: absolute;
+        margin:9px 0 9px 40px;
+        height: 22px;
+        font-size: 16px;
+        font-family: Alibaba, Alibaba-PuHuiTi;
+        font-weight: PuHuiTi;
+        text-align: left;
+        color: #222222;
+        line-height: 22px;
+      }
+    }
+  } 
+
+  .dx-web-content {
+    width: 1680px;
+    height: 100vh;
+    background-color: #f6f7fb;
+    margin: 64px 0 0 240px;
+    overflow: auto;
+  }

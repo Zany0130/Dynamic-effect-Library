@@ -1,10 +1,10 @@
 import React from 'react'
-import Home from './pages/home'
+import Web from './pages/web'
 
 function App() {
   return (
     <div className="App">
-        <Home />
+        <Web />
     </div>
   );
 }

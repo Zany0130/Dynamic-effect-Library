@@ -1,0 +1,32 @@
+.dx-content {
+    margin: 0;
+    padding: 0;
+    .content-item {
+        width: 220px;
+        height: 220px;
+        background: #ffffff;
+    }
+    
+    .content-itemName {
+        width: auto;
+        height: 22px;
+        font-size: 16px;
+        font-family: Alibaba, Alibaba-PuHuiTi;
+        font-weight: PuHuiTi;
+        text-align: left;
+        color: #222222;
+        line-height: 22px;
+        margin-top: 15px;
+    }
+
+    .content-uploadTime {
+        width: auto;
+        height: 20px;
+        font-size: 14px;
+        font-family: Alibaba, Alibaba-PuHuiTi;
+        font-weight: PuHuiTi;
+        text-align: left;
+        color: #cbcbcb;
+        line-height: 20px;
+    }
+}

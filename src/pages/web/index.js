@@ -19,7 +19,7 @@ class Web extends Component {
         return(
           <div className="dx-web">
             <Dheader/>
-            <div>
+            
               <div className="dx-web-sider">
                 <ul className="dx-web-sider-menu">
                   <li><span>下拉刷新</span></li>
@@ -30,7 +30,7 @@ class Web extends Component {
                   <li><span>目录分类六</span></li>
                 </ul>
              </div>
-            </div>
+            
             <div className="dx-web-content">
               {contentLayouts}
             </div>
